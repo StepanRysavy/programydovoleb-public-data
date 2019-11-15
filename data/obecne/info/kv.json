@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Středočeský kraj",
+    "short": "stk",
+    "logo": {
+      "url": "data/obecne/logo/Central_Bohemian_Region_CoA_CZ.svg",
+      "ratio": 0.83
+    },
+    "links": [
+      "www": "https://www.kr-stredocesky.cz/"
+    ]
+  }
+]
