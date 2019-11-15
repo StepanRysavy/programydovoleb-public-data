@@ -13,13 +13,14 @@ function fetchPartyDetail (id, o, reg) {
 
   o.name = item.NAZEVCELK[0];
   o.short = item.ZKRATKAV8[0];
+  o.reg = Number(item.VSTRANA[0]);
 
   if (item.TYPVS[0] === "K") {
     o.coalition = [];
 
     item.SLOZENI[0].split(",").forEach(c => {
       var c_o = {
-        id: Number(c)
+        reg: Number(c)
       }
 
       fetchPartyDetail (Number(c), c_o, reg);
