@@ -109,5 +109,474 @@
         ]
       }
     ]
+  },
+  {
+    "id": 2,
+    "range": ["2017-04-01", null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/.json"
+    },
+    "parties": [
+      {
+        "reg": 12,
+        "seats": [
+          {
+            "name": "Ivana Stránká",
+            "level": 0,
+            "areas": [
+              "hejtmanka"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Ivana_Str%C3%A1sk%C3%A1"
+          },
+          {
+            "name": "Jaromír Novák",
+            "level": 1,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Antonín Krák",
+            "level": 2,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Miroslav Joch",
+            "level": 2,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Miroslav_Joch"
+          }
+        ]
+      },
+      {
+        "reg": 13,
+        "seats": [
+          {
+            "name": "Josef Knot",
+            "party": 32,
+            "level": 1,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Jiří Švěc",
+            "party": 34,
+            "level": 2,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_%C5%A0vec_(politik)"
+          },
+          {
+            "name": "Ivo Moravec",
+            "party": 0000,
+            "level": 2,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Ivo_Moravec"
+          }
+        ]
+      },
+      {
+        "reg": 24,
+        "seats": [
+          {
+            "name": "Zdeněk Dvořák",
+            "level": 1,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Pavel Talíř",
+            "level": 2,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Pavel_Tal%C3%AD%C5%99"
+          }
+        ]
+      },
+      {
+        "reg": 38,
+        "seats": [
+          {
+            "name": "Pavel Hroch",
+            "level": 1,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Pavel Pavel",
+            "level": 2,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Pavel_Pavel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "range": ["2016-11-21", null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/3.json"
+    },
+    "parties": [
+      {
+        "reg": 12,
+        "seats": [
+          {
+            "name": "Josef Bernard",
+            "level": 0,
+            "areas": [
+              "bezpečnost a krizového řízení",
+              "strategický rozvoj",
+              "vnější vztahy",
+              "sport",
+              "neziskové organizace",
+              "dozor nad činností Centrálního nákupu, příspěvkové organizace"
+            ]
+          },
+          {
+            "name": "Ivo Grüner",
+            "level": 1,
+            "areas": [
+              "regionální rozvoj",
+              "fondy EU",
+              "informatika"
+            ]
+          },
+          {
+            "name": "Zdeněk Honz",
+            "level": 1,
+            "areas": [
+              "sociální věci"
+            ]
+          },
+          {
+            "name": "Milena Stárková",
+            "level": 2,
+            "areas": [
+              "zdravotnictví"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 2,
+        "seats": [
+          {
+            "name": "Marcela Krejsová",
+            "level": 1,
+            "areas": [
+              "ekonomika",
+              "investice",
+              "majetek"
+            ]
+          },
+          {
+            "name": "Vladislav Vilímec",
+            "level": 1,
+            "areas": [
+              "kultura",
+              "památková péče"
+            ]
+          },
+          {
+            "name": "Radka Trylčová",
+            "level": 2,
+            "areas": [
+              "životní prostředí",
+              "zemědělství"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 61,
+        "seats": [
+          {
+            "name": "Ivana Bartošová",
+            "level": 1,
+            "party": 24,
+            "areas": [
+              "školství",
+              "cestovní ruch"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 51,
+        "seats": [
+          {
+            "name": "Pavel Čížek",
+            "party": 34,
+            "level": 1,
+            "areas": [
+              "doprava"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/4.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          },
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          },
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/5.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/6.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/7.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/8.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/9.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/10.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/11.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/12.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "range": [null, null],
+    "program": {
+      "source": "",
+      "local": "data/volby/kv-2016/program/13.json"
+    },
+    "parties": [
+      {
+        "reg": ,
+        "seats": [
+          {
+            "name": "",
+            "level": ,
+            "areas": [
+              ""
+            ],
+            "wiki": ""
+          }
+        ]
+      }
+    ]
   }
 ]
