@@ -11,33 +11,22 @@ function fetchPartyDetail (id, o, reg) {
 
   var item = reg.CVS.CVS_ROW.find((item) => Number(item.VSTRANA[0]) === id);
 
-  o.name = item.NAZEVCELK[0];
-  o.short = item.ZKRATKAV8[0];
-  o.reg = Number(item.VSTRANA[0]);
+  // o.name = item.NAZEVCELK[0];
+  // o.short = item.ZKRATKAV8[0];
 
   if (item.TYPVS[0] === "K") {
-    o.coalition = [];
-
-    item.SLOZENI[0].split(",").forEach(c => {
-      var c_o = {
-        reg: Number(c)
-      }
-
-      fetchPartyDetail (Number(c), c_o, reg);
-
-      o.coalition.push(c_o);
-    });
+    o.coalition = item.SLOZENI[0].split(",").map(item => Number(item));
   }
 }
 
-fs.readFile('../kv-2016/source/cvs-utf8.xml', function(err, dataReg) {
+fs.readFile('../zdroje/obecne/cvs.xml', function(err, dataReg) {
 
     bufReg = iconv.encode(dataReg, 'utf8');
 
     parser.parseString(bufReg, function (err, resultReg) {
         reg = resultReg;
 
-        fs.readFile('../kv-2016/source/vysledky.xml', function(err, data) {
+        fs.readFile('../zdroje/volby/kv-2016/vysledky.xml', function(err, data) {
 
             buf = iconv.encode(data, 'utf8');
 
@@ -48,7 +37,7 @@ fs.readFile('../kv-2016/source/cvs-utf8.xml', function(err, dataReg) {
               result.VYSLEDKY.KRZAST.forEach(function (krzast) {
 
                 var krzast_o = {
-                  name: krzast.$.NAZ_KRZAST,
+                  // name: krzast.$.NAZ_KRZAST,
                   id: Number(krzast.$.CIS_KRZAST),
                   votes: Number(krzast.UCAST[0].$.PLATNE_HLASY),
                   voters: Number(krzast.UCAST[0].$.ZAPSANI_VOLICI),
@@ -88,7 +77,7 @@ fs.readFile('../kv-2016/source/cvs-utf8.xml', function(err, dataReg) {
                 json.push(krzast_o);
               });
 
-              fs.writeFile("../kv-2016/vysledky.json", JSON.stringify(json), function(err) {
+              fs.writeFile("../data/volby/kv-2016/vysledky.json", JSON.stringify(json), function(err) {
 
                   if(err) {
                       return console.log(err);
