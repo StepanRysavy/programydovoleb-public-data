@@ -29,14 +29,14 @@ function fetchPartyDetail (id, o, reg) {
   }
 }
 
-fs.readFile('../kv-2016/source/cvs-utf8.xml', function(err, dataReg) {
+fs.readFile('../zdroje/obecne/cvs-utf8.xml', function(err, dataReg) {
 
     bufReg = iconv.encode(dataReg, 'utf8');
 
     parser.parseString(bufReg, function (err, resultReg) {
         reg = resultReg;
 
-        fs.readFile('../kv-2016/source/kzrkl_s.xml', function(err, data) {
+        fs.readFile('../zdroje/volby/kv-2016/kzrkl_s.xml', function(err, data) {
 
             buf = iconv.encode(data, 'utf8');
 
@@ -56,7 +56,7 @@ fs.readFile('../kv-2016/source/cvs-utf8.xml', function(err, dataReg) {
                 json.push(row_o);
               });
 
-              fs.writeFile("../kv-2016/strany.json", JSON.stringify(json), function(err) {
+              fs.writeFile("../data/volby/kv-2016/strany.json", JSON.stringify(json), function(err) {
 
                   if(err) {
                       return console.log(err);
