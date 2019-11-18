@@ -35,6 +35,7 @@ fs.readFile('../zdroje/obecne/cvs-utf8.xml', function(err, dataReg) {
 
     parser.parseString(bufReg, function (err, resultReg) {
         reg = resultReg;
+        allParties = [];
 
         fs.readFile('../zdroje/volby/kv-2016/kzrkl_s.xml', function(err, data) {
 
@@ -46,14 +47,40 @@ fs.readFile('../zdroje/obecne/cvs-utf8.xml', function(err, dataReg) {
 
               result.KZ_RKL_SOUHRN.KZ_RKL_SOUHRN_ROW.forEach(function (row) {
 
+                var item = reg.CVS.CVS_ROW.find((item) => Number(item.VSTRANA[0]) === Number(row.VSTRANA[0]));
+
+                if (item.TYPVS[0] === "K") {
+                  var partiesInCoalition = item.SLOZENI[0].split(",").map(it => Number(it));
+
+                  partiesInCoalition.forEach(party => {
+                    if (allParties.indexOf(party) === -1) allParties.push(party);
+                  });
+                }
+
+                if (allParties.indexOf(Number(row.VSTRANA[0])) === -1) allParties.push(Number(row.VSTRANA[0]));
+              });
+
+              allParties.sort();
+
+              console.log(allParties);
+
+              allParties.forEach(party => {
+
+                var item = reg.CVS.CVS_ROW.find((item) => Number(item.VSTRANA[0]) === party);
+
                 var row_o = {
-                  id: Number(row.KSTRANA[0]),
-                  reg: Number(row.VSTRANA[0])
+                  // id: Number(row.KSTRANA[0]),
+                  reg: party,
+                  name: item.NAZEVCELK[0],
+                  short: item.ZKRATKAV8[0]
                 };
 
-                fetchPartyDetail(row_o.reg, row_o, reg);
+                if (item.TYPVS[0] === "K") {
+                  row_o.coalition = item.SLOZENI[0].split(",").map(it => Number(it));
+                }
 
                 json.push(row_o);
+
               });
 
               fs.writeFile("../data/volby/kv-2016/strany.json", JSON.stringify(json), function(err) {
