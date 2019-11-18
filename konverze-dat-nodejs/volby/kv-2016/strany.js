@@ -60,9 +60,7 @@ fs.readFile('../zdroje/obecne/cvs-utf8.xml', function(err, dataReg) {
                 if (allParties.indexOf(Number(row.VSTRANA[0])) === -1) allParties.push(Number(row.VSTRANA[0]));
               });
 
-              allParties.sort();
-
-              console.log(allParties);
+              allParties.sort((a, b) => a - b);
 
               allParties.forEach(party => {
 
