@@ -97,30 +97,18 @@
   },
   {
     "id": 9,
-    "name": "Olomoucký kraj",
-    "short": "olk",
+    "name": "Kraj Vysočina",
+    "short": "vys",
     "logo": {
-      "url": "data/obecne/logo/loga-kraju/Olomouc_Region_CoA_CZ.svg",
-      "ratio": 0.83
+      "url": "data/obecne/logo/loga-kraju/CZE_Kraj_Wysoczyzna_COA.svg",
+      "ratio": 0.88
     },
     "links": [
-      "www": "http://www.kr-olomoucky.cz/"
+      "www": "https://www.kr-vysocina.cz/index.asp"
     ]
   },
   {
     "id": 10,
-    "name": "Moravskoslezský kraj",
-    "short": "msk",
-    "logo": {
-      "url": "data/obecne/logo/loga-kraju/Moravian-Silesian_Region_CoA_CZ.svg",
-      "ratio": 0.83
-    },
-    "links": [
-      "www": "http://www.msk.cz/"
-    ]
-  },
-  {
-    "id": 11,
     "name": "Jihomoravský kraj",
     "short": "jhm",
     "logo": {
@@ -129,6 +117,18 @@
     },
     "links": [
       "www": "http://www.kr-jihomoravsky.cz/"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Olomoucký kraj",
+    "short": "olk",
+    "logo": {
+      "url": "data/obecne/logo/loga-kraju/Olomouc_Region_CoA_CZ.svg",
+      "ratio": 0.83
+    },
+    "links": [
+      "www": "http://www.kr-olomoucky.cz/"
     ]
   },
   {
@@ -145,14 +145,14 @@
   },
   {
     "id": 13,
-    "name": "Kraj Vysočina",
-    "short": "vys",
+    "name": "Moravskoslezský kraj",
+    "short": "msk",
     "logo": {
-      "url": "data/obecne/logo/loga-kraju/CZE_Kraj_Wysoczyzna_COA.svg",
-      "ratio": 0.88
+      "url": "data/obecne/logo/loga-kraju/Moravian-Silesian_Region_CoA_CZ.svg",
+      "ratio": 0.83
     },
     "links": [
-      "www": "https://www.kr-vysocina.cz/index.asp"
+      "www": "http://www.msk.cz/"
     ]
   }
 ]

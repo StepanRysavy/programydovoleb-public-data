@@ -230,7 +230,7 @@
     "id": 3,
     "range": ["2016-11-21", null],
     "program": {
-      "source": "",
+      "source": "https://drive.google.com/file/d/1zJYnIbVLG83kNYmYlf31EUeGFMAKFIme/view",
       "local": "data/volby/kv-2016/program/3.json"
     },
     "parties": [
@@ -693,22 +693,117 @@
   },
   {
     "id": 7,
-    "range": [null, null],
+    "range": ["2016-11-10", null],
     "program": {
-      "source": "",
+      "source": "http://www.kr-kralovehradecky.cz/assets/kraj-volene-organy/rada/Programove-prohlaseni-Rady-KHK_2016-2020_.pdf",
       "local": "data/volby/kv-2016/program/7.json"
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 7,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Jiří Štěpán",
+            "level": 0,
             "areas": [
-              ""
+              "IZS",
+              "krizové řízení",
+              "zahraniční vztahy",
+              "věda, výzkum a inovace"
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_%C5%A0t%C4%9Bp%C3%A1n"
+          },
+          {
+            "name": "Pavel Hečko",
+            "level": 2,
+            "areas": [
+              "regionální rozvoj",
+              "evropské granty",
+              "dotace",
+              "cestovní ruch"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 53,
+        "seats": [
+          {
+            "name": "Martin Červíček",
+            "level": 1,
+            "areas": [
+              "doprava",
+              "silniční hospodářství"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Martin_%C4%8Cerv%C3%AD%C4%8Dek"
+          },
+          {
+            "name": "Václav Řehoř",
+            "level": 2,
+            "areas": [
+              "investice",
+              "majetek"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 1142,
+        "seats": [
+          {
+            "name": "Martina Berdychová",
+            "level": 1,
+            "party": 770,
+            "areas": [
+              "školství",
+              "kultura",
+              "sport"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Martina_Berdychov%C3%A1"
+          },
+          {
+            "name": "Rudolf Cogan",
+            "level": 2,
+            "party": 166,
+            "areas": [
+              "finance"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 1153,
+        "seats": [
+          {
+            "name": "Vladimír Derner",
+            "level": 1,
+            "party": 1,
+            "areas": [
+              "sociální věci"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Vladim%C3%ADr_Derner"
+          },
+          {
+            "name": "Karel Klíma",
+            "level": 2,
+            "party": 1,
+            "areas": [
+              "vodní hospodářství",
+              "životní prostředí",
+              "zemědělství"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 721,
+        "seats": [
+          {
+            "name": "Aleš Cabicar",
+            "level": 1,
+            "areas": [
+              "zdravotnictví"
+            ]
           }
         ]
       }
@@ -716,22 +811,110 @@
   },
   {
     "id": 8,
-    "range": [null, null],
+    "range": ["2016-11-10", null],
     "program": {
-      "source": "",
+      "source": "https://www.pardubickykraj.cz/viewDocument.aspx?document=40485",
       "local": "data/volby/kv-2016/program/8.json"
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 7,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Martin Netolický",
+            "level": 0,
             "areas": [
-              ""
+              "finance"
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Martin_Netolick%C3%BD"
+          },
+          {
+            "name": "Bohumil Bernášek",
+            "level": 2,
+            "areas": [
+              "školství"
+            ]
+          },
+          {
+            "name": "Václav Kroutil",
+            "level": 2,
+            "areas": [
+              "životní prostředí",
+              "zemědělství",
+              "venkov"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 53,
+        "seats": [
+          {
+            "name": "Michal Kortyš",
+            "level": 1,
+            "areas": [
+              "doprava",
+              "dopravní obslužnost"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Michal_Korty%C5%A1"
+          },
+          {
+            "name": "Ladislav Valtr",
+            "level": 2,
+            "areas": [
+              "zdravotnictví"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 166,
+        "seats": [
+          {
+            "name": "Hana Štěpánová",
+            "level": 2,
+            "areas": [
+              "regionální rozvoj",
+              "evropské fondy",
+              "inovace"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Hana_%C5%A0t%C4%9Bp%C3%A1nov%C3%A1"
+          }
+        ]
+      },
+      {
+        "reg": 344,
+        "seats": [
+          {
+            "name": "Roman Línek",
+            "level": 1,
+            "party": 1,
+            "areas": [
+              "investice",
+              "majetek",
+              "kultura"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Roman_L%C3%ADnek"
+          },
+          {
+            "name": "Pavel Šotola",
+            "level": 2,
+            "party": 1,
+            "areas": [
+              "sociální péče",
+              "neziskový sektor"
+            ]
+          },
+          {
+            "name": "René Živný",
+            "level": 2,
+            "party": 129,
+            "areas": [
+              "sport",
+              "volnočasové aktivity",
+              "cestovní ruch",
+              "informatika"
+            ]
           }
         ]
       }
@@ -739,22 +922,107 @@
   },
   {
     "id": 9,
-    "range": [null, null],
+    "range": ["2016-11-10", null],
     "program": {
-      "source": "",
+      "source": "https://www.kr-vysocina.cz/assets/File.ashx?id_org=450008&id_dokumenty=4078403",
       "local": "data/volby/kv-2016/program/9.json"
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 7,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Jiří Běhounek",
+            "level": 0,
             "areas": [
-              ""
+              "zdravotnictví"
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_B%C4%9Bhounek"
+          },
+          {
+            "name": "Jana Fialová",
+            "level": 2,
+            "areas": [
+              "školství",
+              "mládež",
+              "sport"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Jana_Fialov%C3%A1"
+          },
+          {
+            "name": "Jan Hyliš",
+            "level": 2,
+            "areas": [
+              "doprava",
+              "silniční hospodářství"
+            ]
+          },
+          {
+            "name": "Martin Hyský",
+            "level": 2,
+            "areas": [
+              "regionální rozvoj"
+            ]
+          },
+          {
+            "name": "Vladimír Novotný",
+            "level": 1,
+            "areas": [
+              "finance",
+              "analýzy a podpora řízení",
+              "kontrola"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 53,
+        "seats": [
+          {
+            "name": "Jana Fischerová",
+            "level": 1,
+            "areas": [
+              "kultura",
+              "památková péče",
+              "cestovní ruch"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Jana_Fischerov%C3%A1"
+          }
+        ]
+      },
+      {
+        "reg": 1152,
+        "seats": [
+          {
+            "name": "Pavel Pacal",
+            "party": 129,
+            "level": 1,
+            "areas": [
+              "regionální rozvoj",
+              "územní plánování",
+              "stavební řád"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Pavel_Pacal"
+          }
+        ]
+      },
+      {
+        "reg": 768,
+        "seats": [
+          {
+            "name": "Pavel Franěk",
+            "level": 1,
+            "areas": [
+              "sociální věci"
+            ]
+          },
+          {
+            "name": "Martin Kukla",
+            "level": 2,
+            "areas": [
+              "ekonomika",
+              "majetek"
+            ]
           }
         ]
       }
