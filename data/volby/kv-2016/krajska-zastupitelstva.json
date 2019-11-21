@@ -115,7 +115,7 @@
     "range": ["2017-04-01", null],
     "program": {
       "source": "https://www.kraj-jihocesky.cz/ku_file/146280/0",
-      "local": "data/volby/kv-2016/program/.json"
+      "local": "data/volby/kv-2016/program/2.json"
     },
     "parties": [
       {
