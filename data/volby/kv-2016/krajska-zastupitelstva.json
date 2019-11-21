@@ -1030,22 +1030,122 @@
   },
   {
     "id": 10,
-    "range": [null, null],
+    "range": ["2017-03-22", null],
     "program": {
-      "source": "",
+      "source": "https://www.kr-jihomoravsky.cz/Default.aspx?PubID=333798&TypeID=7",
       "local": "data/volby/kv-2016/program/10.json"
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 7,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Roman Hanák",
+            "level": 1,
             "areas": [
-              ""
+              "doprava"
+            ]
+          },
+          {
+            "name": "Marek Šlapal",
+            "level": 1,
+            "areas": [
+              "sociální věci",
+              "rodinná politika"
+            ]
+          },
+          {
+            "name": "Vít Rajtšlégr",
+            "level": 2,
+            "areas": [
+              "životní prostředí"
+            ]
+          },
+          {
+            "name": "Tomáš Soukal",
+            "level": 2,
+            "areas": [
+              "kultura",
+              "památková péče"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 768,
+        "seats": [
+          {
+            "name": "Bohumil Šimek",
+            "level": 0,
+            "areas": [
+              "finance"
+            ]
+          },
+          {
+            "name": "Petr Hýbler",
+            "level": 1,
+            "areas": [
+              "investice",
+              "regionální rozvoj",
+              "venkov",
+              "zemědělství"
+            ]
+          },
+          {
+            "name": "Jana Pejchalová",
+            "level": 2,
+            "areas": [
+              "školství",
+              "sport"
+            ]
+          },
+          {
+            "name": "Taťána Malá",
+            "level": 2,
+            "areas": [
+              "majetek",
+              "komunikace s vládou a centrálními orgány"
+            ]
+          },
+          {
+            "name": "Milan Vojta",
+            "level": 2,
+            "areas": [
+              "zdravotnictví"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 1162,
+        "seats": [
+          {
+            "name": "Jan Vitula",
+            "party": 721,
+            "level": 1,
+            "areas": [
+              "školství",
+              "věda",
+              "výzkum",
+              "inovace",
+              "marketing",
+              "Smart region"
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Jan_Vitula"
+          }
+        ]
+      },
+      {
+        "reg": 1144,
+        "seats": [
+          {
+            "name": "Martin Maleček",
+            "party": 166,
+            "level": 1,
+            "areas": [
+              "územní plánování"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Martin_Male%C4%8Dek"
           }
         ]
       }
@@ -1053,22 +1153,106 @@
   },
   {
     "id": 11,
-    "range": [null, null],
+    "range": ["2017-04-02", null],
     "program": {
-      "source": "",
+      "source": "https://www.olkraj.cz/download.html?id=47423",
       "local": "data/volby/kv-2016/program/11.json"
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 7,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Jiří Zemánek",
+            "level": 1,
             "areas": [
               ""
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_Zem%C3%A1nek_(politik)"
+          },
+          {
+            "name": "Ladislav Hynek",
+            "level": ,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Pavel Šoltys",
+            "level": ,
+            "areas": [
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 53,
+        "seats": [
+          {
+            "name": "Dalibor Horák",
+            "level": 1,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Dalibor_Hor%C3%A1k"
+          },
+          {
+            "name": "Ivo Mareš",
+            "level": ,
+            "areas": [
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 768,
+        "seats": [
+          {
+            "name": "Ladislav Okleštěk",
+            "level": 0,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Ladislav_Okle%C5%A1t%C4%9Bk"
+          },
+          {
+            "name": "Jan Zahradníček",
+            "level": 1,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Milan Klimeš",
+            "level": 1,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "Petr Vrána",
+            "level": 3,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Petr_Vr%C3%A1na_(politik)"
+          },
+          {
+            "name": "Alena Adamíková",
+            "level": 3,
+            "areas": [
+              ""
+            ]
+          },
+          {
+            "name": "František Jura",
+            "level": 3,
+            "areas": [
+              ""
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Jura"
           }
         ]
       }
@@ -1076,22 +1260,112 @@
   },
   {
     "id": 12,
-    "range": [null, null],
+    "range": ["2016-11-10", null],
     "program": {
-      "source": "",
+      "source": "https://www.kr-zlinsky.cz/docs/clanky/dokumenty/11949/programove-prohlaseni-5.pdf",
       "local": "data/volby/kv-2016/program/12.json"
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 1,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Jiří Čunek",
+            "level": 0,
             "areas": [
-              ""
+              "zdravotnictví",
+              "investice",
+              "vnější vztahy"
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_%C4%8Cunek"
+          },
+          {
+            "name": "Pavel Botek",
+            "level": 1,
+            "areas": [
+              "doprava"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Pavel_Botek"
+          },
+          {
+            "name": "Michaela Blahová",
+            "level": 2,
+            "areas": [
+              "sociální záležitosti",
+              "neziskový sektor",
+              "rodinná politika"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Michaela_Blahov%C3%A1"
+          },
+          {
+            "name": "Miroslav Kašný",
+            "level": 2,
+            "areas": [
+              "kultura",
+              "památková péče",
+              "církve",
+              "mládež",
+              "sport"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 53,
+        "seats": [
+          {
+            "name": "Jan Pijáček",
+            "level": 2,
+            "areas": [
+              "řízení dotačních programů",
+              "rozvoj venkova",
+              "cestovní ruch"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Jan_Pij%C3%A1%C4%8Dek"
+          }
+        ]
+      },
+      {
+        "reg": 166,
+        "seats": [
+          {
+            "name": "Josef Zicha",
+            "level": 1,
+            "areas": [
+              "strategický rozvoj",
+              "územní plánování"
+            ]
+          },
+          {
+            "name": "Petr Gazdík",
+            "level": 2,
+            "areas": [
+              "školství"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Petr_Gazd%C3%ADk_(politik)"
+          }
+        ]
+      },
+      {
+        "reg": 768,
+        "seats": [
+          {
+            "name": "Jiří Sukop",
+            "level": 1,
+            "areas": [
+              "finance",
+              "rozpočet",
+              "majetek"
+            ]
+          },
+          {
+            "name": "Margita Balaštíková",
+            "level": 2,
+            "areas": [
+              "životní prostředí",
+              "zemědělství"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Margita_Bala%C5%A1t%C3%ADkov%C3%A1"
           }
         ]
       }
@@ -1106,15 +1380,109 @@
     },
     "parties": [
       {
-        "reg": ,
+        "reg": 1,
         "seats": [
           {
-            "name": "",
-            "level": ,
+            "name": "Lukáš Curylo",
+            "level": 1,
+            "areas": [
+              "kultura",
+              "památková péče"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Curylo"
+          },
+          {
+            "name": "Jiří Navrátil",
+            "level": 1,
+            "areas": [
+              "sociální oblast"
+            ]
+          },
+          {
+            "name": "Vít Slováček",
+            "level": 2,
             "areas": [
               ""
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 53,
+        "seats": [
+          {
+            "name": "Jakub Unucka",
+            "level": ,
+            "areas": [
+              "chytrý region",
+              "doprava",
+              "silniční hospodářství"
             ],
-            "wiki": ""
+            "wiki": "https://cs.wikipedia.org/wiki/Jakub_Unucka"
+          },
+          {
+            "name": "Stanislav Folwarczny",
+            "level": 1,
+            "areas": [
+              "školství",
+              "sport"
+            ]
+          }
+        ]
+      },
+      {
+        "reg": 768,
+        "seats": [
+          {
+            "name": "Ivo Vondrák",
+            "level": 0,
+            "areas": [
+              "strategický rozvoj kraje",
+              "zahraniční vztahy",
+              "bezpečnost"
+            ],
+            "wiki": "https://cs.wikipedia.org/wiki/Ivo_Vondr%C3%A1k"
+          },
+          {
+            "name": "Jaroslav Kania",
+            "level": 1,
+            "areas": [
+              "finance",
+              "investice",
+              "majetek"
+            ]
+          },
+          {
+            "name": "Martin Gebauer",
+            "level": 1,
+            "areas": [
+              "zdravotnictví"
+            ]
+          },
+          {
+            "name": "Jan Krkoška",
+            "level": 1,
+            "areas": [
+              "regionální rozvoj",
+              "turistický ruch",
+              "evropské fondy",
+              "operační programy"
+            ]
+          },
+          {
+            "name": "Jarmila Uvírová",
+            "level": 1,
+            "areas": [
+              "životní prostředí",
+              "zemědělství"
+            ]
+          },
+          {
+            "name": "Radomíra Vlčková",
+            "level": 2,
+            "areas": [
+              ""
+            ]
           }
         ]
       }
