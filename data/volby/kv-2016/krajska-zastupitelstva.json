@@ -576,7 +576,7 @@
             "wiki": "https://cs.wikipedia.org/wiki/Petr_%C5%A0m%C3%ADd"
           }
         ]
-      },
+      }
     ]
   },
   {
@@ -1172,14 +1172,14 @@
           },
           {
             "name": "Ladislav Hynek",
-            "level": ,
+            "level": 2,
             "areas": [
               ""
             ]
           },
           {
             "name": "Pavel Šoltys",
-            "level": ,
+            "level": 2,
             "areas": [
               ""
             ]
@@ -1199,7 +1199,7 @@
           },
           {
             "name": "Ivo Mareš",
-            "level": ,
+            "level": 2,
             "areas": [
               ""
             ]
@@ -1412,7 +1412,7 @@
         "seats": [
           {
             "name": "Jakub Unucka",
-            "level": ,
+            "level": 1,
             "areas": [
               "chytrý region",
               "doprava",

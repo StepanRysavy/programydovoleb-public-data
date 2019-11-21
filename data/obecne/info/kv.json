@@ -8,7 +8,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "https://www.kr-stredocesky.cz/"
+      {"www": "https://www.kr-stredocesky.cz/"}
     ]
   },
   {
@@ -20,7 +20,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kraj-jihocesky.cz/"
+      {"www": "http://www.kraj-jihocesky.cz/"}
     ]
   },
   {
@@ -32,7 +32,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.plzensky-kraj.cz/"
+      {"www": "http://www.plzensky-kraj.cz/"}
     ]
   },
   {
@@ -44,7 +44,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kr-karlovarsky.cz/"
+      {"www": "http://www.kr-karlovarsky.cz/"}
     ]
   },
   {
@@ -56,7 +56,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kr-ustecky.cz/"
+      {"www": "http://www.kr-ustecky.cz/"}
     ]
   },
   {
@@ -68,7 +68,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kraj-lbc.cz/"
+      {"www": "http://www.kraj-lbc.cz/"}
     ]
   },
   {
@@ -80,7 +80,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kr-kralovehradecky.cz/"
+      {"www": "http://www.kr-kralovehradecky.cz/"}
     ]
   },
   {
@@ -92,7 +92,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "https://www.pardubickykraj.cz/"
+      {"www": "https://www.pardubickykraj.cz/"}
     ]
   },
   {
@@ -104,7 +104,7 @@
       "ratio": 0.88
     },
     "links": [
-      "www": "https://www.kr-vysocina.cz/index.asp"
+      {"www": "https://www.kr-vysocina.cz/index.asp"}
     ]
   },
   {
@@ -116,7 +116,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kr-jihomoravsky.cz/"
+      {"www": "http://www.kr-jihomoravsky.cz/"}
     ]
   },
   {
@@ -128,7 +128,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.kr-olomoucky.cz/"
+      {"www": "http://www.kr-olomoucky.cz/"}
     ]
   },
   {
@@ -140,7 +140,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "https://www.kr-zlinsky.cz/"
+      {"www": "https://www.kr-zlinsky.cz/"}
     ]
   },
   {
@@ -152,7 +152,7 @@
       "ratio": 0.83
     },
     "links": [
-      "www": "http://www.msk.cz/"
+      {"www": "http://www.msk.cz/"}
     ]
   }
 ]
