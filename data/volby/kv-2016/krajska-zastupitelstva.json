@@ -2,10 +2,7 @@
   {
     "id": 1,
     "range": ["2017-11-20", null],
-    "program": {
-      "source": "https://www.kr-stredocesky.cz/documents/14432/13821067/PROGRAMOV%C3%89%20PROHL%C3%81%C5%A0EN%C3%8D%20-+fin%C3%A1ln%C3%AD%20verze.docx/3438628b-8949-4da1-a97f-0a4298f8cec2",
-      "local": "data/volby/kv-2016/program/1.json"
-    },
+    "program": "data/volby/kv-2016/program/1-stredocesky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -113,10 +110,7 @@
   {
     "id": 2,
     "range": ["2017-04-01", null],
-    "program": {
-      "source": "https://www.kraj-jihocesky.cz/ku_file/146280/0",
-      "local": "data/volby/kv-2016/program/2.json"
-    },
+    "program": "data/volby/kv-2016/program/2-jihocesky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -229,10 +223,7 @@
   {
     "id": 3,
     "range": ["2016-11-21", null],
-    "program": {
-      "source": "https://drive.google.com/file/d/1zJYnIbVLG83kNYmYlf31EUeGFMAKFIme/view",
-      "local": "data/volby/kv-2016/program/3.json"
-    },
+    "program": "data/volby/kv-2016/program/3-plzensky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -336,10 +327,7 @@
   {
     "id": 4,
     "range": ["2017-03-01", null],
-    "program": {
-      "source": "http://www.kr-karlovarsky.cz/samosprava/Documents/Programove_prohlaseni_RKK_obdobi_2016_2020.pdf",
-      "local": "data/volby/kv-2016/program/4.json"
-    },
+    "program": "data/volby/kv-2016/program/4-karlovarsky-kraj.json",
     "parties": [
       {
         "reg": 768,
@@ -462,10 +450,7 @@
   {
     "id": 5,
     "range": ["2016-11-10", null],
-    "program": {
-      "source": "https://www.kr-ustecky.cz/assets/File.ashx?id_org=450018&id_dokumenty=1709798",
-      "local": "data/volby/kv-2016/program/5.json"
-    },
+    "program": "data/volby/kv-2016/program/5-ustecky-kraj.json",
     "parties": [
       {
         "reg": 93,
@@ -582,10 +567,7 @@
   {
     "id": 6,
     "range": ["2016-11-22", null],
-    "program": {
-      "source": "https://liberecky-kraj.kraj-lbc.cz/rada/programove-prohlaseni-rady",
-      "local": "data/volby/kv-2016/program/6.json"
-    },
+    "program": "data/volby/kv-2016/program/6-liberecky-kraj.json",
     "parties": [
       {
         "reg": 703,
@@ -694,10 +676,7 @@
   {
     "id": 7,
     "range": ["2016-11-10", null],
-    "program": {
-      "source": "http://www.kr-kralovehradecky.cz/assets/kraj-volene-organy/rada/Programove-prohlaseni-Rady-KHK_2016-2020_.pdf",
-      "local": "data/volby/kv-2016/program/7.json"
-    },
+    "program": "data/volby/kv-2016/program/7-kralovehradecky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -812,10 +791,7 @@
   {
     "id": 8,
     "range": ["2016-11-10", null],
-    "program": {
-      "source": "https://www.pardubickykraj.cz/viewDocument.aspx?document=40485",
-      "local": "data/volby/kv-2016/program/8.json"
-    },
+    "program": "data/volby/kv-2016/program/8-pardubicky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -923,10 +899,7 @@
   {
     "id": 9,
     "range": ["2016-11-10", null],
-    "program": {
-      "source": "https://www.kr-vysocina.cz/assets/File.ashx?id_org=450008&id_dokumenty=4078403",
-      "local": "data/volby/kv-2016/program/9.json"
-    },
+    "program": "data/volby/kv-2016/program/9-kraj-vysocina.json",
     "parties": [
       {
         "reg": 7,
@@ -1031,10 +1004,7 @@
   {
     "id": 10,
     "range": ["2017-03-22", null],
-    "program": {
-      "source": "https://www.kr-jihomoravsky.cz/Default.aspx?PubID=333798&TypeID=7",
-      "local": "data/volby/kv-2016/program/10.json"
-    },
+    "program": "data/volby/kv-2016/program/10-jihomoravsky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -1154,10 +1124,7 @@
   {
     "id": 11,
     "range": ["2017-04-02", null],
-    "program": {
-      "source": "https://www.olkraj.cz/download.html?id=47423",
-      "local": "data/volby/kv-2016/program/11.json"
-    },
+    "program": "data/volby/kv-2016/program/11-olomoucky-kraj.json",
     "parties": [
       {
         "reg": 7,
@@ -1261,10 +1228,7 @@
   {
     "id": 12,
     "range": ["2016-11-10", null],
-    "program": {
-      "source": "https://www.kr-zlinsky.cz/docs/clanky/dokumenty/11949/programove-prohlaseni-5.pdf",
-      "local": "data/volby/kv-2016/program/12.json"
-    },
+    "program": "data/volby/kv-2016/program/12-zlinsky-kraj.json",
     "parties": [
       {
         "reg": 1,
@@ -1373,11 +1337,8 @@
   },
   {
     "id": 13,
-    "range": [null, null],
-    "program": {
-      "source": "",
-      "local": "data/volby/kv-2016/program/13.json"
-    },
+    "range": ["2016-10-11", null],
+    "program": "data/volby/kv-2016/program/13-moravskoslezsky-kraj.json",
     "parties": [
       {
         "reg": 1,
