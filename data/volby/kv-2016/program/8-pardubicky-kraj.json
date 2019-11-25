@@ -1,6 +1,8 @@
 {
   "title": "Programové prohlášení",
   "subtitle": "rady Pardubického kraje",
+  "source": "https://www.pardubickykraj.cz/viewDocument.aspx?document=40485",
+  "coalition": [7, 53, 166, 344],
   "parts": [
     {
       "headline": "Preambule",
@@ -328,10 +330,6 @@
     },
     {
       "headline": "Sport, volnočasové aktivity, cestovní ruch a informatika",
-      "copy": "",
-      "list": [
-
-      ],
       "parts": [
         {
           "headline": "Sport a volnočasové aktivity ",
